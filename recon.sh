@@ -11,8 +11,8 @@ if [ -z "$domain" ]; then
     exit 1
 fi
 
-mkdir -p passive_$domain
-cd passive_$domain
+mkdir -p $domain
+cd $domain
 
 echo "========================================="
 echo "[+] Target: $domain"
