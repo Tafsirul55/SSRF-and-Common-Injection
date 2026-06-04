@@ -53,10 +53,17 @@ echo "[+] Total Subdomains Found:"
 wc -l all_passive.txt
 echo "========================================="
 
+# =========================
+echo "[+] Live..."
+cat all_passive.txt | httpx -follow-redirects > live.txt
+
+# =========================
+echo "[+] Total Live Sub-domain..."
+wc -l live.txt
+echo "========================================="
+
 echo "[+] Saved: passive_$domain/all_passive.txt"
 echo "[+] Done 🚀"
-
-
 
 echo "========================================="
 echo "========================================="
