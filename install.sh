@@ -60,7 +60,8 @@ git clone https://github.com/aboul3la/Sublist3r.git ~/tools/Sublist3r
 pip3 install -r ~/tools/Sublist3r/requirements.txt --break-system-packages
 
 # xnLinkFinder
-pip3 install xnLinkFinder --break-system-packages
+# pip3 install xnLinkFinder --break-system-packages
+pip install xnLinkFinder --break-system-packages --ignore-installed
 
 echo "[+] Python tools done!"
 
