@@ -135,6 +135,25 @@ echo "[+] ssti:             $(wc -l < gf/ssti.txt)"
 echo "[+] xss:              $(wc -l < gf/xss.txt)"
 echo "[+] Total Parameters: $(wc -l < parameters.txt)"
 
+
+echo "========================================="
+echo
+echo "[+] Total URLs from gau:         $(wc -l < gau.txt)"
+echo "[+] Total URLs from subjs:        $(wc -l < subjs.txt)"
+echo "[+] Total URLs from waybackurls:  $(wc -l < waybackurls.txt)"
+echo "[+] Total URLs from getJS:        $(wc -l < getjs.txt)"
+echo "[+] Total URLs from hakrawler:    $(wc -l < hakrawler.txt)"
+echo "[+] Total URLs from urlfinder:    $(wc -l < urlfinder.txt)"
+echo "[+] Total URLs from katana:       $(wc -l < katana.txt)"
+echo "[+] Total URLs from gospider:     $(wc -l < gospider.txt)"
+echo "[+] Total URLs from xnLinkFinder: $(wc -l < xnl.txt)"
+echo "[+] Total URLs from cariddi:      $(wc -l < cariddi.txt)"
+echo "[+] Total Unique URLs:            $(wc -l < all-urls.txt)"
+echo "[+] Total JS Files:               $(wc -l < js.txt)"
+
+echo "========================================="
+
+
 echo "========================================="
 echo "[+] RECON COMPLETE (from live file): $livefile"
 echo "[+] Folder: $HOME/$name"
